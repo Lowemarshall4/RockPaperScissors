@@ -1,0 +1,46 @@
+html {
+    font-size: 100%;
+}
+
+body,
+main{
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+body {
+    flex-direction: column;
+}
+
+main img {
+    max-width: 30%;
+    max-height: auto;
+    margin-top: 4rem;
+    transition: all 0.7s;
+    border: 8px solid grey;
+    border-radius: 12px;
+}
+
+.results {
+    display: flex;
+    flex: auto;
+    align-self: stretch;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.results h1 {
+    margin-right: auto;
+}
+
+body #ai-choice  {
+    max-width: 10%;
+}
+
+
+.clicked {
+    transform: scale(1.1);
+    border-color: gold;
+}
